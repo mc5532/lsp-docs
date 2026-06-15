@@ -1,0 +1,1048 @@
+@import url(otherstyles.css);
+/* CSS Document */
+
+
+body {
+	margin: 0px 0px 20px 0px;
+	background: #d8d5c6;
+}
+
+a, a:visited, a:hover, a:active {
+	font:11pt;
+	color:#87102e;
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/* ==== 1) Size & Demension of Web Page  === */
+
+
+ 
+/* ==== 3) LOGO -Banner location ======================== */
+#logo_overlay{
+	position: absolute;
+	top: 0px;
+	left:0px;
+}
+
+  #MainImage{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	height:118px;
+	width: 716px;
+	margin-top: 0px;
+	top: 0px;
+	left: 0px;
+	padding: 0px;
+	border: 0px;
+	background-color: #87102E;
+ }
+ 
+ 
+/* ==== ) Search Area  === */
+
+
+
+#searchbox {
+	position: absolute;
+/*	height: auto; --ken */
+	width: 222px;
+	left: 478px;  /* --ken */
+	top: 11px;
+	vertical-align: top;
+}
+
+#searchbox input
+{
+/* --ken
+	position: absolute;
+	height: 22px;
+	width: 24px;
+	left: 195px;
+	top: 1px;
+*/
+  border:none;
+}
+#searchbox input#searchstring           /* --ken added this rule */
+{
+  position: relative;  left:4px;  top:-9px;  _top:-7px;
+  height: 20px;
+  border: 1px solid #999999;
+  font-size: 13px;
+}
+.textfield
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #5f6062;
+	height: 15px;
+	width:190px;
+	vertical-align: middle;
+}
+
+
+.courseheaders {
+	background:#515f62;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	line-height: 15px;
+}
+
+
+
+
+/* ==== ) Top Right Area  === */
+
+
+#bannerbox-headline {
+	margin-bottom: 0.5em;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+#bannerbox-text
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #FFF;
+	margin-left: 20px;
+}
+#bannerbox-studentlogin
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	text-align: right;
+	padding-top: 10px;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-right: 15px;
+}
+#bannerbox-studentlogin a {
+	color:#FFF; 
+  text-decoration:none;
+}
+
+
+
+
+#bodywrap {
+	margin-top: 0px;
+	top: 154px;
+	height: auto;
+	width: 955px;
+	position: absolute;
+	background-color: #ecf3d2;
+	padding-left: 0px;
+}
+
+
+
+
+/* ==== 2) main nav  === */
+
+#navbar {
+
+
+
+}
+
+
+
+
+/* ====  New Section - Main Content Box ========================================== */
+
+/* ==== ) MAIN Content Area - for All 3 columns ============ */
+ 
+  #MainContent{
+	position: relative;
+	width: 955px;
+	_height: 600px;
+	min-height: 600px;
+	
+ }
+
+	
+
+
+
+
+/* === Column 1  ==== */
+
+
+#column1{
+	margin:0px;
+	padding:0px;
+	width:224px;
+	height:100%;
+	position: absolute;
+	left: 0px;
+	top: 35px;
+ }
+
+
+
+	
+/* ==== Middle Content ============================ */
+
+
+
+
+
+#pagetitle {
+	float: left;
+	width: 440px;
+	position: relative;
+	height: auto;
+	margin-bottom: 0px;
+	top: 0px;
+	padding-left: 4px;
+}
+
+
+
+ 
+  #back {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #87102E;
+	top: 60px;
+	left: 8px;
+	position: absolute;
+	z-index; 500;
+ }
+ 
+ 
+ .email {
+ 
+ 	font-size: 10pt;
+	color:#585858;
+	line-height: 11pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	vertical-align:top;
+ 	padding-top: 6px;
+ }
+
+#title{
+	color:#87102e;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13pt;
+	letter-spacing: 0pt;
+	font-weight: 900;
+	clear: left;
+	line-height: 16pt;
+	margin: 0px;
+	padding-left: 8px;
+	background-color: #D7DFC6;
+	padding-top: 10px;
+}
+ 
+ #column-2 {
+	width: 446px;
+	position: relative;
+	margin-bottom: 0px;
+	top: 35px;
+	float: left;
+	left: 230px;
+	display: inline;
+	padding-bottom: 20px;
+	height: auto
+ }
+ 
+
+ 	
+  h2{
+	color:#87102e;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13pt;
+	letter-spacing: 0pt;
+	font-weight: 900;
+ }
+
+ .Heading {
+	color:#87102e;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13pt;
+	letter-spacing: 0pt;
+	font-weight: 900;
+ }
+
+.subheading{
+	color:#b30838;
+
+}
+
+
+
+.Content {
+	color:#585858;
+	line-height: 13pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	padding-left: 8px;
+	padding-right: 8px;
+	top: 0px;
+	padding-bottom: 0px;
+	clear: left;
+ }
+
+ .Content2 {
+	color:#585858;
+	line-height: 16pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	top: 0px;
+	padding-bottom: 20px;
+ }
+ 
+
+	 
+ .Title {
+	color:#fff;
+	font:14pt;
+	letter-spacing: 1px;
+	width:auto;
+	margin-top:0px;
+	padding-left:10px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	background-color: #496E91;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	margin-bottom: 15px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.Contentbottom {
+	color:#585858;
+	line-height: 16pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	padding-left: 8px;
+	padding-right: 20px;
+	top: 0px;
+	padding-bottom: 60px;
+ }
+ 
+ 
+ 
+ 
+   
+ .headingtable {
+	color:#87102e;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	letter-spacing: 0pt;
+	padding-left: 10px;
+	font-weight: 900;
+ }
+
+.tableheaders {
+	background:#515f62;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	line-height: 20px;
+	padding-left: 10px;
+}
+
+
+.tablecontent {
+	color:#585858;
+	line-height: 16pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	line-height: 14px;
+	padding-left: 10px;
+	padding-top: 5px;
+ }
+ 
+ 
+ /* === Center Content -Rollover  ==== */
+
+
+
+#centerlistcontainer{
+	float:left;
+	margin:0px;
+	width:446px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	line-height: 14pt;
+	color:#000000;
+	border: 1px;
+	border-color: #000000;
+	border-style: solid;
+	margin-top: 8px;
+	padding-top: 8px;
+ }
+
+ ul#centerlist{
+	display:block;
+	float:left;
+	padding:0px;
+	margin:0px;
+	width:446px;
+	height:auto;
+	left:0px
+	font-size: 10pt;
+	font-weight: 900;
+ } 
+
+ #centerlist li{
+	display:block;
+	list-style:none;
+	margin:0;
+	padding-left: 0px;
+
+ }
+
+ #centerlist li a{
+	display:block;
+	height:auto;
+	padding-left:20px;
+	color:#000000;
+	background-repeat:no-repeat;
+	background-position:left;
+	text-decoration: none;
+	line-height: 16pt;
+	padding-top: 3px;
+	padding-bottom: 3px;
+
+ }
+
+
+ #centerlistt li a span{
+	display:block;
+	margin:0;
+	padding-top:5px;
+	padding-bottom:6px;
+	padding-left: 0px;
+
+  }
+
+ #centerlist li a:hover{
+ 	display:block;
+	color:#000000;
+	background-repeat:no-repeat;
+	background-position:left;
+	background-color:#d7dfc6;
+	width:426px;
+
+	
+	padding-top: 3px;
+	padding-bottom: 3px;
+ }
+
+
+
+ 
+  
+/* === Center Shaded Box  ==== */
+.centershade {
+	background-color: #d7dfc6;
+	width: 453px;
+	position: inherit;
+	clear: left;
+}
+
+/* === for the event calendar page ==== */
+
+
+ 
+ 
+ 
+ 
+ 
+/* ===== Right Content === */ 
+
+
+#docrightcol {
+	clear: none;
+	float: right;
+	width: 239px;
+	position: relative;
+	height: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 16px;
+	color: #5f604b;
+	background-color: #aab7ad;
+	margin-top: 0px;
+	padding-left: 0px;
+	border: 0px;
+}
+#docrighttowerpic {
+	background-color: #87102e;
+	width: 239px;
+	padding-top: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFF;
+	clear: none;
+	float: right;
+	height: auto;
+	margin-top: 0px;
+}
+#docrightcol a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	line-height: 12pt;
+	color: #87102e;
+	text-decoration:none;
+
+}
+#rightcolumnpic {
+	background-image: url(../images/tuitionimage.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	position: relative;
+	height: 214px;
+	width: 239px;
+
+}
+
+ #rightcolumn {
+	width: 244px;
+	top: 36px;
+	position: relative;
+	float: right;
+	left: 0px;
+	display: inline;
+	height: auto;
+	padding-bottom: 50px;
+ }
+		
+.rightcoltextbox {
+	margin-left:18px;
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 60px;
+}		
+
+
+
+.rightcolparagraphs {
+	margin-left:18px;
+	padding-top: 15px;
+	padding-right: 10px;
+	line-height:16pt;
+	font-size: 11pt;
+}
+
+/* === letter from dean right column  ==== */
+
+.rightcol_updates {
+	margin-left:18px;
+	padding-top: 15px;
+	padding-right: 10px;
+	line-height:20px;
+}
+
+
+
+.rightdean {
+	margin-left:7px;
+	padding-top: 10px;
+	font-size: 9pt;
+	line-height: 13pt;
+	width: 50%;
+	float: left;
+	display: inline;
+	color: #000000;
+}
+.rightdean2 {
+	margin-left:8px;
+	padding-top: 10px;
+	font-size: 9pt;
+	line-height: 13pt;
+	width: 40%;
+	float: left;
+	display: inline;
+	color: #000000;
+}
+		
+
+/* === Contact table  ==== */
+.contactinfo{
+	width:100%;
+	font-size: 10pt;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #D7DFC6;
+	border-color: #D7DFC6;
+	border-style: solid;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+}		
+		
+contact-td	{
+
+
+
+}	
+
+ 
+/* === Calendar  ==== */
+
+
+
+#docrightcolcal {
+	clear: none;
+	float: right;
+	width: 239px;
+	position: relative;
+	height: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	line-height: 12pt;
+	color: #5f604b;
+	background-color: #aab7ad;
+	paddingp: 0px;
+	margin-top: 28px
+}
+
+
+
+.months {
+	height: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10.69pt;
+	line-height: 18pt;
+	color: #87102e;
+	font-weight: bold;
+	font-variant: caps;
+	letter-spacing: 2pt;
+	text-align: center;
+	border-bottom: 1px;
+	border-top: 1px;
+	border-color: #5F604B;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	margin-right: 20px;
+	margin-left: 20px;
+	
+}
+	
+.calendarboard {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10.69pt;
+	line-height: 15.34pt;
+	color: #5f604b;
+	font-weight: bold;
+	font-variant: caps;
+	letter-spacing: 1pt;
+	text-align: center;
+	padding-top: 0.125px;
+	padding-bottom: 0.175px;
+	margin-top: 5px;
+	margin-bottom: 8px;
+
+
+}
+.days{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10.23pt;
+	line-height: 15.34pt;
+	color: #3f3f2d;
+	font-weight: bold;
+	border: 0px;
+
+}
+
+.dates {
+	color: #57604b;
+}
+
+.holiday{
+
+	border: 1px;
+	border-color: #ffffff;
+	border-style: solid;
+}
+#centermonths {
+	border: 1px;
+	border-color: #5f604b;
+	border-style: solid;
+	color:#000000;
+	padding-left: 8px;
+	padding-right: 8px;
+	margin-bottom: 8px;
+	
+	}
+	
+	#centermonthsrover {
+	color:#000000;
+	margin-bottom: 0px;
+	margin-left: 8px;
+	margin-right: 8px;
+	
+	}
+	
+	
+		
+	.centermonthsrover {
+	color:#000000;
+	margin-bottom: 0px;
+	padding-left: 8px;
+	}
+	
+.importantdates{
+	border: 1px;
+	border-color: #87102e;
+	border-style: solid;
+
+}
+
+#calheader {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	line-height: 25pt;
+	color: #3f3f2d;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 0pt;
+	padding-top:10px;
+
+}
+
+
+
+/* ===== Footer Content === */ 
+
+
+#footer {
+	width:100%;
+	height:49px;
+	clear: both;
+	padding: 10px 0px;
+	text-align: left;
+	color: #000000;
+	position: relative;
+	left: 0px;
+	top: auto;
+	text-transform: uppercase;
+	background-color: #FFF;
+}
+#footer-copyright
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	color: #606062;
+	text-align: left;
+	padding-left: 10px;
+	width: 300px;
+}
+#footer-nav
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #606062;
+	text-align: right;
+	height: auto;
+	width: 645px;
+	position: absolute;
+	left: 300px;
+	top: 7px;
+	padding-right: 5px;
+	text-decoration: none;
+}
+
+#footer-nav a
+{
+	color:#606062;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* ===== HOME PAGE === */ 
+
+
+
+
+#master {
+	width:955px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	text-align: left;
+	position: relative;
+}
+
+#logo {
+	position: absolute;
+	width:716px;
+	height:118px;
+	top: 0px;
+	left: 0px;
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+/* --ken
+#searchbox {
+	position: absolute;
+	height: auto;
+	width: 222px;
+	left: 442px;
+	top: 11px;
+	vertical-align: top;
+}
+
+#searchbtn
+{
+	position: absolute;
+	height: 22px;
+	width: 24px;
+	left: 195px;
+	top: 1px;
+}
+.textfield
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #5f6062;
+	height: 15px;
+	width:190px;
+	vertical-align: middle;
+}
+*/
+
+
+#flashbanner {
+	clear: both;
+	height: 110px;
+	width: 955px;
+	position: relative;
+	left: 6px;
+	top: 0px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#sidecol {
+	width:470px;
+	float: left;
+	margin-bottom: 20px;
+	padding: 5px;
+	margin-top: 0px; /*30*/
+	height: 125px; /*190*/
+	/*background-image: url(../images/introtext.gif);
+	background-repeat: no-repeat;
+	background-position: right top; */
+	left: 21px;
+}
+#hometext
+{
+	width: 440px;
+	float: left;
+	margin-bottom: 10px;
+	padding: 5px;
+	margin-top: 30px;
+	margin-left: 20px;
+	height: 190px;
+	left: 21px;
+	top: 0px;
+	font-family: Arial, sans-serif;
+	font-size: 17px;
+	line-height: 21px;
+	color: #667772;
+}
+.redhometext {
+	color: #87102e;
+}
+
+#maincol {
+	margin-bottom: auto;
+	padding: 0px;
+	margin-top: auto;
+	float: none;
+	height: auto;
+	width: 955px;
+	position: absolute;
+	top: 0px;
+	background-color: #ecf3d2;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #FF0000;
+	border-right-color: #FF0000;
+	border-bottom-color: #FF0000;
+	border-left-color: #FF0000;
+	clear: both;
+}
+#rightcol {
+	margin-bottom: auto;
+	padding: 0px;
+	margin-top: auto;
+	float: right;
+	height: auto;
+	width: 448px;
+	position: relative;
+	left: 0px;
+	top: auto;
+	vertical-align: top;
+	clear: none;
+}
+
+
+#contentbox1,
+#contentbox2,
+#contentbox3 {
+	height: 186px;
+	background-color: #d5d7b4;
+	padding: 5px 10px;
+}
+#contentbox1 {
+	width: 193px;
+	background-color: #d5d7b4;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	line-height: normal;
+	color: #667772;
+	float: left;
+}
+#contentbox1 ul {
+	margin-top: 3px;
+  margin-bottom: 0;
+}  
+#contentbox2 {
+	float: left;
+	width: 188px;
+}
+#contentbox3 {
+	float: left;
+	width: 190px;
+}
+.zeroindent-courses {
+	position: relative;
+	top: 0px;
+	border: thin none #009900;
+	margin-right: 0px;
+	margin-left: 0;
+	padding:0;
+	list-style-image: none;
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	text-align: left;
+}
+ul.zeroindent-courses li {
+	margin-bottom: 0.5em;
+}
+#newsheading,#newsheading2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:15px;
+	margin-top: 3px;
+	color: #667772;
+}
+.zeroindent-events
+{
+	list-style-image: none;
+	text-align: left;
+	margin-left: 0;
+	padding:0;
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #667772;
+	line-height: 14px;
+}
+
+li.zeroindent-events {
+	padding-bottom: 5px;
+}
+#contentbanner1
+{
+	background-image: url(../images/verttitles-coursehighlights.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 197px;
+	width: 28px;
+	position: relative;
+	
+	top: auto;
+	clear: none;
+	float: left;
+}
+#contentbanner2
+{
+	background-image: url(../images/verttitles-news.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 197px;
+	width: 28px;
+	position: relative;
+	left: auto;
+	top: auto;
+	clear: none;
+	float: left;
+}
+#contentbanner3
+{
+	background-image: url(../images/verttitle-events.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 197px;
+	width: 28px;
+	position: relative;
+	left: auto;
+	top: auto;
+	clear: none;
+	float: left;
+}
+
+
+
+
+
+
+/* --ken
+textarea-white {
+background-color: #ffffff;
+font-family: arial, verdana, ms sans serif;
+font-size: 10px
+}
+*/
+
+input{
+	/*background-color: #ffffff;*/
+	font-family: arial, verdana, ms sans serif;
+	font-size: 10pt;
+	border-bottom-color: #d7d7d2;
+	border-right-color: #d7d7d2;
+} 
+
+textarea {
+background-color: #ecf3d2;
+font-family: arial, verdana, ms sans serif;
+font-size: 12px;
+} 

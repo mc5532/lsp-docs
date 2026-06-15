@@ -1,0 +1,141 @@
+﻿/* CSS Document */
+
+
+p, dl, ul, li, ol, div, td, body {
+	font-family: Verdana, Arial, Helvetica, Geneva, SunSans-Regular, sans-serif;
+	font-size: 11px;
+	color: #222;
+	line-height: 16px; 
+}
+
+body {
+	top: 0px;
+	border: 0px;
+	margin: 0px;
+	background-image:   url("../images/bg9.gif");}
+	
+.maintable {
+	background-color: #FFFFFF;
+}
+
+.logo {
+	background-image:   url("../images/logo9.jpg");}
+
+.menu {
+	background-image:   url("../images/menu9.gif");}
+
+.menutext {
+	font-family: Verdana, Arial, Helvetica, Geneva, SunSans-Regular, sans-serif;
+	font-size: 13px;
+	color: #000000;
+	line-height: 16px; 
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	}
+.menutext a:link 	{ color: #052262; text-decoration: none; }
+.menutext a:visited 	{ color: #052262; text-decoration: none; }
+.menutext a:hover 	{ color: #812F02; text-decoration: none; }
+
+
+a:link 		{ color: #4E52FF; text-decoration: none; }
+a:visited 	{ color: #4E52FF; text-decoration: none; }
+a:hover 	{ color: #FFAE00; text-decoration: underline; }
+
+.title {
+	font-size: 22px;
+	line-height: 22px;
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	color: #000229;
+	margin-bottom: 0px;
+	letter-spacing: .05em;
+}
+
+.subhead {
+	font-size: 14px; 
+	line-height: 16px; 
+	font-family:"Trebuchet MS", Arial, sans-serif;
+	font-weight: bold;
+	color: #4A4A4A; 
+	margin-top: 8px;
+	margin-bottom: -8px;
+	letter-spacing: .05em;
+}
+
+
+.list1 {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 13px; 
+	font-weight: bold; 
+}
+
+.list2 {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 12px; 
+	font-weight: bold; 
+}
+
+.photocredit {
+	font-size: 10px;
+	line-height: 11px;
+	color: #666;
+}
+
+.pullquote
+{
+	font-size: 13px;
+	font-family: Georgia, serif;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 2px;
+	line-height: 18px;
+	font-style: italic;
+	color: #765;
+}
+
+.pullquoteauthor
+{
+	font-size: 12px;
+	font-family: Georgia, serif;
+	line-height: 18px;
+	color: #765;
+	text-align: right;
+	margin-top: -2px;
+	margin-right: 40px;
+}
+
+.subnav {
+	font-size: 13px;
+	font-weight: regular;
+	line-height: 14px; 
+	margin-bottom: -2px;
+	font-family: Verdana, sans-serif;
+}
+
+.copyright {
+	font-size: 9px;
+	line-height: 9px; 
+	color: #888;
+}
+
+.small {
+	font-size: 10px;
+	line-height: 13px; 
+}
+
+.indent {
+	margin-left: 10px;
+	padding-right: 10px;
+}
+.dots {
+	background-image:   url("images/vertline.gif");}
+	
+	.seo{
+
+    font-size: 9px;
+	line-height: 9px; 
+	color: #888;
+	margin-left: 30px;
+	margin-right: 10px;
+}
+label{ display:block;}
