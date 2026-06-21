@@ -2,7 +2,6 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  *
- * Author: Sujatha Chintalapati.
  */
 
 // If the length of the element's string is 0 then display helper message
