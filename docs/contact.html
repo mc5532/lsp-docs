@@ -190,20 +190,15 @@
 						mode: "no-cors",
 						body: formData
 					})
-						.then(function (response) { return response.json(); })
-						.then(function (result) {
-							submitBtn.disabled = false;
-							if (result.success) {
-								setStatus(result.message || "Thank you for signing up!", false);
-								form.reset();
-							} else {
-								setStatus(result.message || "Something went wrong. Please try again.", true);
-							}
-						})
-						.catch(function () {
-							submitBtn.disabled = false;
-							setStatus("Network error. Please try again or email us directly.", true);
-						});
+					.then(function() {
+					    submitBtn.disabled = false;
+					    setStatus("Thank you for signing up! We will be in touch soon.", false);
+					    form.reset();
+					})
+					.catch(function() {
+					    submitBtn.disabled = false;
+					    setStatus("Network error. Please try again or email us directly.", true);
+					});
 				}).catch(function () {
 					submitBtn.disabled = false;
 					setStatus("Spam check failed. Please refresh and try again.", true);
